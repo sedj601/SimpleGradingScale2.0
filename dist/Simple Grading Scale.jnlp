@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Simple Grading Scale.jnlp">
+  <information>
+    <title>Simple Grading Scale</title>
+    <vendor>sedj601</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SimpleGradingScale2.0.jar" size="15725" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Simple Grading Scale" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="simplegradingscale2.pkg0.SimpleGradingScale20"  name="Simple Grading Scale" />
+  <update check="always"/>
+</jnlp>
